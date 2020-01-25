@@ -11,26 +11,26 @@
             var reg1 = /^DataGrid1__ctl\d+_JS\d+$/i;
             var selections = ifdocument.getElementsByTagName("select");
             var arr = [true, false];
-            for(var i = 0 ; i< selections.length; i++)
-            {
-			 	if(reg1.test(selections[i].getAttribute("id")))
-                {
-			 		if(arr[Math.floor(Math.random()*arr.length)])
-                        selections[i].value = "A";
-                    else
-                        selections[i].value = "B";
-			 	}
+            for(var i = 0 ; i< selections.length; i++
+		{
+			 if(reg1.test(selections[i].getAttribute("id")))
+                	{
+				if(arr[Math.floor(Math.random()*arr.length)])
+                        	selections[i].value = "A";
+                		else
+                        	selections[i].value = "B";
 			}
-            ifdocument.getElementById("Button1").click();
 		}
+            ifdocument.getElementById("Button1").click();
+	}
 			
-			autoexecution();
+	autoexecution();
     iframe.onload = function()
-    {
+    	{
         if(subLength -- > 0)
-        {
+        	{
 			console.log("auto jumping.....");
-            console.log("少女祈祷中.....");
-            autoexecution();
+        		console.log("少女祈祷中.....");
+        		autoexecution();
 		}
 	}
